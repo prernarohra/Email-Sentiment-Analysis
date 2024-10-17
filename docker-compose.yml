@@ -1,0 +1,34 @@
+version: "3.9"
+
+#Defines different containers (e.g., app and db). (Note: it can be multiple container with same syntax)
+services:
+  db:
+    image: postgres:13.2
+    container_name: postgres
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=your_database_password
+    ports:
+    - "5432:5432"
+    volumes:
+    - ./data:/var/lib/postgresql/data
+
+  app:
+  #build: Specifies to build the image using the local Dockerfile.
+    build: .
+    container_name: Email-sentiment
+    restart: always
+    #ports: Maps host to container ports
+    ports:
+      - "8000:8000"
+    #depends_on: Specifies that the app service depends on the db service.
+    depends_on:
+      - db
+    volumes:
+      - .:/app
+    command: uvicorn Email-check:app --host 0.0.0.0 --port 8000 --reload
+
+
+networks:
+  default:
+      name: Email_sentiment_network
