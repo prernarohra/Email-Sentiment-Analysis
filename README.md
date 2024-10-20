@@ -1,3 +1,3 @@
 # Email-Sentiment-Analysis
-<img src="https://media.licdn.com/dms/image/D5612AQEosFlrwZAycw/article-cover_image-shrink_600_2000/0/1671606347481?e=2147483647&v=beta&t=mcl2a2vJRB0KYxbRvqsJKWuDS_j4-NuOpoIvHBD2N6o" alt="Email Sentiment Analysis" width="900" height="400">
+<img src="https://cdn.prod.website-files.com/5ec6a20095cdf182f108f666/6662478d2c03c60b08d0623a_Analyze%20Support%20Ticket%20Data.png" alt="Email Sentiment Analysis" width="900" height="400">
 
