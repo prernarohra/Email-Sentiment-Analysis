@@ -13,6 +13,7 @@ This project uses the OpenAI API for performing sentiment analysis on emails and
 ## :rocket: Usage
 1. Clone this repository:
 
+```bash
 git clone https://github.com/yourusername/your-repository-name.git
 cd your-repository-name
 
