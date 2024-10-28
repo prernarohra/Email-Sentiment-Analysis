@@ -11,5 +11,10 @@ This project uses the OpenAI API for performing sentiment analysis on emails and
 - Database Management: Uses PostgreSQL to store and manage email and event data.
 
 ## :rocket: Usage
+1. Clone this repository:
 
+git clone https://github.com/yourusername/your-repository-name.git
+cd your-repository-name
+
+2. Create a .env file in the root directory to securely store your API keys and database credentials:
 
