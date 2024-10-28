@@ -10,3 +10,6 @@ This project uses the OpenAI API for performing sentiment analysis on emails and
 - Containerized Deployment: Docker setup for easy deployment.
 - Database Management: Uses PostgreSQL to store and manage email and event data.
 
+## :rocket: Usage
+
+
