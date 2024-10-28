@@ -19,7 +19,7 @@ git clone https://github.com/yourusername/your-repository-name.git
 
 # Navigate to the project directory
 cd your-repository-name
-```bash
+```
 
 2. Create a .env file in the root directory to securely store your API keys and database credentials:
 
