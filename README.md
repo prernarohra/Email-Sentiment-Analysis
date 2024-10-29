@@ -27,3 +27,4 @@ cd your-repository-name
 touch .env
 ```
 
+3. In the .env file, replace YOUR_OPENAI_API_KEY and YOUR_CALENDLY_API_KEY with your respective API keys:
