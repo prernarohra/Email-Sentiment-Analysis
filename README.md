@@ -10,7 +10,7 @@ This project uses the OpenAI API for performing sentiment analysis on emails and
 - Containerized Deployment: Docker setup for easy deployment.
 - Database Management: Uses PostgreSQL to store and manage email and event data.
 
-## :rocket: Usage
+## :wrench: Installation
 1. Clone this repository:
 
 ```bash
@@ -35,6 +35,8 @@ CALENDLY_API_KEY=YOUR_CALENDLY_API_KEY
 USERNAME=YOUR_EMAIL_USERNAME
 PASSWORD=YOUR_EMAIL_PASSWORD
 ```
+
+## :rocket: Usage
 
 4. Start Docker and build the application container:
 
