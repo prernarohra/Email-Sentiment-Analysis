@@ -39,5 +39,5 @@ PASSWORD=YOUR_EMAIL_PASSWORD
 4. Start Docker and build the application container:
 
 ```bash
-touch .env
+docker-compose up --build
 ```
