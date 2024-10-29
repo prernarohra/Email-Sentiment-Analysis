@@ -21,7 +21,7 @@ git clone https://github.com/yourusername/your-repository-name.git
 cd your-repository-name
 ```
 
-2. Create a .env file in the root directory to securely store your API keys and database credentials:
+2. Create a .env file in the root directory to securely store your API keys and email credentials:
 
 ```bash
 touch .env
