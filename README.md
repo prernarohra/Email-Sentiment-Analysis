@@ -35,3 +35,9 @@ CALENDLY_API_KEY=YOUR_CALENDLY_API_KEY
 USERNAME=YOUR_EMAIL_USERNAME
 PASSWORD=YOUR_EMAIL_PASSWORD
 ```
+
+4. Start Docker and build the application container:
+
+```bash
+touch .env
+```
