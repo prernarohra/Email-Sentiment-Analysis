@@ -36,10 +36,10 @@ USERNAME=YOUR_EMAIL_USERNAME
 PASSWORD=YOUR_EMAIL_PASSWORD
 ```
 
-## :rocket: Usage
-
 4. Start Docker and build the application container:
 
 ```bash
 docker-compose up --build
 ```
+
+## :rocket: Usage
