@@ -27,4 +27,11 @@ cd your-repository-name
 touch .env
 ```
 
-3. In the .env file, replace YOUR_OPENAI_API_KEY and YOUR_CALENDLY_API_KEY with your respective API keys:
+3. In the .env file, replace YOUR_OPENAI_API_KEY and YOUR_CALENDLY_API_KEY with your respective API keys and configure your email credentiatls:
+
+ ```bash
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+CALENDLY_API_KEY=YOUR_CALENDLY_API_KEY
+USERNAME=YOUR_EMAIL_USERNAME
+PASSWORD=YOUR_EMAIL_PASSWORD
+```
