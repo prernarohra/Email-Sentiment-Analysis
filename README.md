@@ -23,3 +23,7 @@ cd your-repository-name
 
 2. Create a .env file in the root directory to securely store your API keys and database credentials:
 
+```bash
+touch .env
+```
+
