@@ -43,3 +43,6 @@ docker-compose up --build
 ```
 
 ## :rocket: Usage
+
+1. Set Up Environment Variables: Ensure the .env file has the correct API keys for OpenAI and Calendly and correct credentials.
+2. Run the Application: Once the Docker container is up, the app will start, and you can access it through http://localhost:8000 (or your specified port).
