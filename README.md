@@ -46,3 +46,5 @@ docker-compose up --build
 
 1. Set Up Environment Variables: Ensure the .env file has the correct API keys for OpenAI and Calendly and correct credentials.
 2. Run the Application: Once the Docker container is up, the app will start, and you can access it through http://localhost:8000 (or your specified port).
+3. Sentiment Analysis: The application will process emails and return sentiment analysis using the OpenAI API.
+4. Event Scheduling: Use the Calendly integration to manage events directly within the application.
