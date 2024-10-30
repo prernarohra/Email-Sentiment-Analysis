@@ -53,8 +53,8 @@ docker-compose up --build
 4. Event Scheduling: Use the Calendly integration to manage events directly within the application.
 
 5. API Key Replacement:
- - OpenAI API Key: Replace YOUR_OPENAI_API_KEY in the .env file.
- - Calendly API Key: Replace YOUR_CALENDLY_API_KEY in the .env file.
- - Postgresql Database URL: Replace postgresql://username:password@localhost:5432/your-database with your username, password of the server and your database name.
+  - OpenAI API Key: Replace YOUR_OPENAI_API_KEY in the .env file.
+  - Calendly API Key: Replace YOUR_CALENDLY_API_KEY in the .env file.
+  - Postgresql Database URL: Replace postgresql://username:password@localhost:5432/your-database with your username, password of the server and your database name.
 
 Make sure to restart the Docker container after making any updates to the .env file to apply the new keys.
