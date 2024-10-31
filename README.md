@@ -58,3 +58,7 @@ docker-compose up --build
   - Postgresql Database URL: Replace postgresql://username:password@localhost:5432/your-database with your username, password of the server and your database name.
 
 Make sure to restart the Docker container after making any updates to the .env file to apply the new keys.
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
