@@ -59,7 +59,7 @@ docker-compose up --build
 
 Make sure to restart the Docker container after making any updates to the .env file to apply the new keys.
 
-## Contributing
+## 👐 Contributing
 
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
