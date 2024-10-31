@@ -63,6 +63,6 @@ Make sure to restart the Docker container after making any updates to the .env f
 
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-## License
+## :ribbon: License
 
 This project is open-source and available under the MIT License.
