@@ -10,6 +10,19 @@ This project uses the OpenAI API for performing sentiment analysis on emails and
 - Containerized Deployment: Docker setup for easy deployment.
 - Database Management: Uses PostgreSQL to store and manage email and event data.
 
+## ⚙️ Tools and libraries
+
+- Python
+- VS code
+- PostgresSQL
+- Docker
+- OpenAI API Key
+- FastAPI
+- Pydantic
+- Sqlalchemy
+- Email
+- Calendly
+
 ## :wrench: Installation
 1. Clone this repository:
 
