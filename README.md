@@ -28,10 +28,10 @@ This project uses the OpenAI API for performing sentiment analysis on emails and
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repository-name.git
+git clone https://github.com/prernarohra/Email-Sentiment-Analysis.git
 
 # Navigate to the project directory
-cd your-repository-name
+cd Email-Sentiment-Analysis
 ```
 
 2. Create a .env file in the root directory to securely store your API keys and email credentials:
