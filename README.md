@@ -57,15 +57,15 @@ docker-compose up --build
 
 ## :rocket: Usage
 
-1. Set Up Environment Variables: Ensure the .env file has the correct API keys for OpenAI and Calendly and correct credentials.
+1. **Set Up Environment Variables**: Ensure the .env file has the correct API keys for OpenAI and Calendly and correct credentials.
 
-2. Run the Application: Once the Docker container is up, the app will start, and you can access it through http://localhost:8000 (or your specified port).
+2. **Run the Application** : Once the Docker container is up, the app will start, and you can access it through http://localhost:8000 (or your specified port).
 
-3. Sentiment Analysis: The application will process emails and return sentiment analysis using the OpenAI API.
+3. **Sentiment Analysis**: The application will process emails and return sentiment analysis using the OpenAI API.
  
-4. Event Scheduling: Use the Calendly integration to manage events directly within the application.
+4. **Event Scheduling**: Use the Calendly integration to manage events directly within the application.
 
-5. API Key Replacement:
+5. **API Key Replacement**:
   - OpenAI API Key: Replace YOUR_OPENAI_API_KEY in the .env file.
   - Calendly API Key: Replace YOUR_CALENDLY_API_KEY in the .env file.
   - Postgresql Database URL: Replace postgresql://username:password@localhost:5432/your-database with your username, password of the server and your database name.
