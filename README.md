@@ -24,7 +24,7 @@ This project uses the OpenAI API for performing sentiment analysis on emails and
 - Calendly
 
 ## :wrench: Installation
-1. Clone this repository:
+*1.* Clone this repository:
 
 ```bash
 # Clone the repository
@@ -34,13 +34,13 @@ git clone https://github.com/prernarohra/Email-Sentiment-Analysis.git
 cd Email-Sentiment-Analysis
 ```
 
-2. Create a .env file in the root directory to securely store your API keys and email credentials:
+*2.* Create a .env file in the root directory to securely store your API keys and email credentials:
 
 ```bash
 touch .env
 ```
 
-3. In the .env file, replace YOUR_OPENAI_API_KEY and YOUR_CALENDLY_API_KEY with your respective API keys and configure your email credentiatls:
+*3.* In the .env file, replace YOUR_OPENAI_API_KEY and YOUR_CALENDLY_API_KEY with your respective API keys and configure your email credentiatls:
 
  ```bash
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
@@ -49,7 +49,7 @@ USERNAME=YOUR_EMAIL_USERNAME
 PASSWORD=YOUR_EMAIL_PASSWORD
 ```
 
-4. Start Docker and build the application container:
+*4.* Start Docker and build the application container:
 
 ```bash
 docker-compose up --build
